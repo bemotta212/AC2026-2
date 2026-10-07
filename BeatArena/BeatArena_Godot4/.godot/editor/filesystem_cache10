@@ -1,0 +1,14 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1791395081
+README.md::TextFile::-1::1791226438::0::1::::<><><>0<>0<><>::
+::res://assets/::1791228788
+COLOQUE_SUA_MUSICA_AQUI.txt::TextFile::-1::1791226439::0::1::::<><><>0<>0<><>::
+music.ogg::AudioStreamOggVorbis::4085494526478967822::1791228742::1791228788::1::::<><><>0<>0<>375c3c246b87a993d14fa86d25d11863<>res://.godot/imported/music.ogg-d233022d9be0484b4ce51ad373695501.oggvorbisstr::
+::res://scenes/::1791226438
+Main.tscn::PackedScene::-1::1791226438::0::1::::<><><>0<>0<><>::res://scripts/main.gd<>res://scripts/audio_analyzer.gd<>res://scripts/player.gd<>res://scripts/hud.gd
+::res://scripts/::1791227158
+audio_analyzer.gd::GDScript::1716796549647916220::1791228987::0::1::::AudioAnalyzer<>Node<><>0<>0<><>::
+enemy.gd::GDScript::582981698748962787::1791227158::0::1::::BeatEnemy<>Area2D<><>0<>0<><>::
+hud.gd::GDScript::7563301407847284843::1791227158::0::1::::<>CanvasLayer<><>0<>0<><>::
+main.gd::GDScript::7515510856240585496::1791227769::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript::1016699676081395205::1791227158::0::1::::<>CharacterBody2D<><>0<>0<><>::
