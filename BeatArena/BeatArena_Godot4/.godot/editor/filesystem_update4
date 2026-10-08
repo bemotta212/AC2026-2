@@ -1,0 +1,4 @@
+res://scenes/Main.tscn
+res://scripts/audio_analyzer.gd
+res://scripts/enemy.gd
+res://scripts/main.gd
