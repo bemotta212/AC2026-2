@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c675xchkxft6g"]
+
+[ext_resource type="PackedScene" uid="uid://k1jncfa4fypm" path="res://models/Suzanne.glb" id="1_ekrbc"]
+[ext_resource type="Script" uid="uid://b16uh678fv2el" path="res://suzanne_shapekeys.gd" id="2_4h65r"]
+
+[node name="Suzanne_Shapekeys" unique_id=1766264548 instance=ExtResource("1_ekrbc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1678908, 0)
+script = ExtResource("2_4h65r")
+
+[node name="Camera3D" type="Camera3D" parent="." index="2" unique_id=115291900]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.4571195)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="3" unique_id=1963090288]
+transform = Transform3D(1, 0, 0, 0, 0.8826032, 0.47011867, 0, -0.47011867, 0.8826032, 0, 2.362227, 0)
