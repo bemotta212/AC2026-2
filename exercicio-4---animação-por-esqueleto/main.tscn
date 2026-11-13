@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cha0brnnqqeop"]
+
+[ext_resource type="PackedScene" uid="uid://cipgncj0ry5hd" path="res://SoldadoClone.tscn" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://byh2lq7oa8g37" path="res://soldado_clone.gd" id="2_0xm2m"]
+
+[node name="Node3D" type="Node3D" unique_id=1269106509]
+
+[node name="CloneTrooper" parent="." unique_id=166801886 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+script = ExtResource("2_0xm2m")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1791973242]
+transform = Transform3D(1, 0, 0, 0, 0.9396927, 0.34202015, 0, -0.34202015, 0.9396927, -6.691269, 169.13556, 277.1718)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=940597976]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 318.11713, 0)
